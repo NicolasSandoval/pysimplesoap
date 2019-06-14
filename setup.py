@@ -13,8 +13,10 @@ setup(name='PySimpleSOAP',
       author='Mariano Reingart',
       author_email='reingart@gmail.com',
       url='https://github.com/pysimplesoap/pysimplesoap/tree/stable',
+      download_url='https://github.com/NicolasSandoval/pysimplesoap/tarball/stable_py3k',
       packages=['pysimplesoap',],
       package_dir={'pysimplesoap': package_dir}
+      packaged_data={'pysimplesoap':['*.txt']}
       #console=['client.py'],
       #cmdclass = {"py2exe": build_installer},
      )

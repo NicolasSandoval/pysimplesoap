@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 from setuptools import setup
+
+import os
+import sys
 import pysimplesoap
 
 VERSION = '0.0.0'

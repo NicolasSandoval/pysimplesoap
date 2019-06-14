@@ -1,17 +1,12 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-try:
-    import py2exe
-    from nsis import build_installer
-except:
-    build_installer = None
-
 import pysimplesoap
+
 package_dir = pysimplesoap
 
 setup(name='PySimpleSOAP',
-      version=pysimplesoap.__version__,
+      version=__version__,
       description='Python Simple SOAP Library',
       author='Mariano Reingart',
       author_email='reingart@gmail.com',

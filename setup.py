@@ -11,7 +11,7 @@ import pysimplesoap
 package_dir = pysimplesoap
 
 setup(name='PySimpleSOAP',
-      version=pysimplesoap.client.__version__,
+      version=pysimplesoap.__version__,
       description='Python Simple SOAP Library',
       author='Mariano Reingart',
       author_email='reingart@gmail.com',

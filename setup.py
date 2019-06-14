@@ -16,7 +16,7 @@ setup(name='PySimpleSOAP',
       download_url='https://github.com/NicolasSandoval/pysimplesoap/tarball/stable_py3k',
       packages=['pysimplesoap',],
       package_dir={'pysimplesoap': package_dir}
-      package_data={'pysimplesoap':['*.txt']}
+      #package_data={'pysimplesoap':['']}
       #console=['client.py'],
       #cmdclass = {"py2exe": build_installer},
      )

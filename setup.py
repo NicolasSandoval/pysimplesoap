@@ -7,7 +7,8 @@ try:
 except:
     build_installer = None
 
-import pysimplesoap.client
+import pysimplesoap
+package_dir = pysimplesoap
 
 setup(name='PySimpleSOAP',
       version=pysimplesoap.client.__version__,
@@ -16,7 +17,8 @@ setup(name='PySimpleSOAP',
       author_email='reingart@gmail.com',
       url='https://github.com/pysimplesoap/pysimplesoap/tree/stable',
       packages=['pysimplesoap',],
-      console=['client.py'],
-      cmdclass = {"py2exe": build_installer},
+      package_dir={'pysimplesoap': package_dir}
+      #console=['client.py'],
+      #cmdclass = {"py2exe": build_installer},
      )
 

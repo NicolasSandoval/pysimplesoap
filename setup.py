@@ -3,10 +3,12 @@
 from setuptools import setup
 import pysimplesoap
 
-package_dir = pysimplesoap
+VERSION = '0.0.0'
+
+package_dir = 'pysimplesoap'
 
 setup(name='PySimpleSOAP',
-      version=__version__,
+      version=VERSION,
       description='Python Simple SOAP Library',
       author='Mariano Reingart',
       author_email='reingart@gmail.com',
